@@ -69,7 +69,7 @@ for n in N:
 # ---------------------------------------------------------------------------------------
 # - Interpretation for 'datasets' data structure:
 # -- first key is the number of features, the keys inside those are the number of datapoints within each dataset, e.g.:
-# -- datasets[20][35] means you are accessing a dataset which has 25 features and 30 datapoints
+# -- datasets[20][35] means you are accessing a dataset which has 20 features and 35 datapoints
 # -- The actual array which contains the values for each datapoint in the previous example can be selected via
 #       datasets[20][35][0][0], the labels array can be selected via datasets[20][35][0][1]. This is because there are
 #       n_D = 50 datasets for each configuration, thus len(datasets[20][35)) would output 50 for example.
