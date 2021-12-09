@@ -92,7 +92,7 @@ if __name__ == '__main__':
             number_successful = 0
             for _ in range(n_D):
                 w_final, i = train(N[m], p, n_max, datasets[N[m]][p][_][0], datasets[N[m]][p][_][1])
-                if i < 99:
+                if i < n_max - 1:
                     number_successful += 1
             proportion_successful[m, k] = number_successful/n_D
 
